@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    /* background-color: rgb(12, 16, 19);
+    color:white; */
+    background-color: #0abcf9;
+    background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
+}
+
+/* NavBar brand */
+.navbar-brand{
+    color: white;
+}
+.nav-img-logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+
+}
+#human_image{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#music-notification-bell{
+    font-size:30px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#music-search-bar{
+    /* background-color: yellow; */
+    height: 30px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+/* Now we make a aside and main section  */
+
+main,aside{
+    background-color: #0abcf9;
+    background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
+    display: inline-block;
+    vertical-align: top;
+   
+    /* border: 3px solid green; */
+}
+main{
+    
+    width: 75%;
+    height: 100vh;
+
+}
+/* main section style with css */
+#main-section{
+   display: flex;
+   justify-content: space-around;
+   align-items: flex-end;
+   margin-left: 70px;
+   /* border: 5px solid red; */
+    
+}
+#main-side{
+    margin: 20px;
+    /* border: 5px salmon; */
+    overflow:visible;
+}
+#main-img{
+    margin-bottom: 50px;
+    /* background-image: url("main.jpg"); */
+    background: linear-gradient(to bottom, transparent, #403066 74%),
+    url("main.jpg");
+    width: 300vw;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    }
+
+#follower{
+    margin-top: -40px;
+    margin-left: 100px;
+    /* text-align: end; */
+    color: white;
+}
+#follow{
+    margin-top: -40px;
+    text-align: center;
+    color: wheat;
+}
+
+/* current playlist style */
+.current_song{
+    display: block;
+    height: 100px;
+    border: 2px solid red;
+    margin: 20px;
+    padding: 10px;
+    
+    /* overflow: hidden; */
+}
+
+.current_img_style{
+    height: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+    object-fit: contain;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+/* style main aside section */
+aside{
+    background-color: red;
+    width: 25%;
+    height: 100vh;
+    margin-left: -5px;
+}
+.viewALL{
+    margin-top: -40px;
+    text-align: end;
+    color: white;
+    margin-right: 20px;
+}
+.similer-artist{
+    display: flex;
+   justify-content: space-around;
+   
+   /* border:5px solid black; */
+   height: 100px;
+   width: initial;
+   margin-top: 10px;
+}
+
+.similer-artist-img{
+    margin-bottom: 20px;
+    background-image: url('main.jpg');
+    height:70px ;
+    width: 70px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow: visible;
+    
+}
+.similer-main{
+    display: inline-flex;
+    justify-content: space-around;
+    margin-right: 20px;
+}
+.similer-icon{
+   margin-left: 30px;   
+   color: darkslategrey;
+}
+
+#fav{
+    
+    margin-left: 0px;
+    padding-left: 0px;
+}
